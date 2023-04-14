@@ -1,0 +1,19 @@
+@use '../util' as u;
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+// resets cause browsers have default styles and will add for any websites they load
+*,
+*::before,
+*::after{
+    margin: 0; 
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    font-family: u.$font;
+    overflow-x: hidden;
+    background-color: var(--background-color);
+}

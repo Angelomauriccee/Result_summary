@@ -1,0 +1,67 @@
+.container{
+    &__summary{
+        padding: 20px 30px;
+        h5{
+            color: hsl(224, 30%, 27%);
+        }
+        p{
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .summary_row{
+            position: relative;
+            background: hsla(0, 100%, 67%, 0.10);
+            padding: 10px 10px;
+            margin-top: 14px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            .reaction{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                p{
+                    letter-spacing: .3px;
+                }
+            }
+            .reaction_score{
+                display: flex;
+                gap: 5px;
+                p{
+                    font-weight: 700;
+                    color: hsla(0, 0%, 50%, 0.562);
+                }
+                p:first-child{
+                    color: hsl(224, 30%, 27%);
+                }
+            }
+        }
+        .memory{
+            background: hsla(39, 100%, 67%, 0.11);
+        }
+        
+        .verbal{
+            background: hsla(166, 100%, 67%, 0.10);
+        }
+        .visual{
+            background: hsla(234, 85%, 67%, 0.10);
+        }
+        button{
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 14px;
+            padding: 10px 0;
+            width: 100%;
+            border-radius: 100px;
+            color: white;
+            font-weight: 500;
+            background: hsl(224, 30%, 27%);
+            transition: 0.5s;
+        }
+        button:active{
+            background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        }
+    }
+}

@@ -1,0 +1,51 @@
+# Frontend Mentor - Results summary component solution
+
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
+- [Author](#author)
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![solution_screenshot](./screenshot.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/Angelomauriccee/Result_summary)
+- Live Site URL: [Add live site URL here](https://https://emmanuelsresultsummary.netlify.app/)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- SASS custom properties
+- Mobile-first workflow
+
+### Continued development
+
+I still want to refine my css
+
+### Useful resources
+
+- [Example resource 1](https://webcode.tools.com) - This is an amazing site that helped me with some css properties values generation
+
+## Author
+
+- Website - [Agbom Emmanuel](https://emmanuelagbom.netlify.app)
+- Frontend Mentor - [@Angelomauriccee](https://www.frontendmentor.io/profile/Angelomauriccee)
+- Twitter - [@JellyCoder](https://twitter.com/JellyCoder)
